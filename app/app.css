@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+/* font-family: 'Sora', sans-serif; */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    background-color: #29293F;
+}
+
+h1{
+    font-weight: 600;
+    text-align: center;
+    color: #E8E4E4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+#inputElement{
+    background-image: url(../assets/Group\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 430px;
+    width: 80%;
+    display: flex;
+}
+#inputElement button{
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    width: 20%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: #29293F;
+}
+input{
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 10px;
+    color: #E8E4E4;
+    outline: none;
+    width: 80%;
+    background-color: transparent;
+}
+input::placeholder{
+    color: #E8E4E4;
+}
+
+
+/* js list */
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+/* Classe da lista */
+.jsLista{
+    width: 80%;
+    max-width: 430px;
+    margin: 0 auto;
+    /* background: linear-gradient(90deg, #F2EB42 0%, #2EA6D9 100%); */
+    border-radius: 16px 4px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cor0{
+    background: linear-gradient(90deg, #F2EB42 0%, #2EA6D9 100%);
+}
+.cor1{
+    background: linear-gradient(90deg, #e95858 0%, #476DF5 100%);
+}
+.cor2{
+    background: linear-gradient(90deg, #E5BC52 0%, #3551E3 100%);
+}
+.cor3{
+    background: linear-gradient(90deg, #52B0E5 0%, #eb5449 100%);
+}
+.pTitle{
+    color: #29293F;
+    font-size: 25px;
+}
+/* btn Remover Item */
+.btnExcluirItem{
+    background: #29293F;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 10px;
+    color: #E8E4E4;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#msgInvalid{
+    visibility: hidden;
+    text-align: center;
+    display: block;
+    color: #F2EB42;
+    padding: 0px 10px 10px 10px;
+}
