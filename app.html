@@ -10,7 +10,7 @@
     <script src="./app.js" defer></script>
     <title>CheckToDo - Suas tarefas</title>
 </head>
-<body>
+<body onload="carregaDados()">
 
     <h1 id="logo">CheckToDo</h1>
 
@@ -18,14 +18,17 @@
 
     <div id="inputElement">
         <input id="inputValue" type="text" placeholder="Minha rotina...">
-        <button id="btnAdd"><i class="fa-solid fa-paper-plane"></i></button>
+        <button id="btnAdd" onclick="novoItem()"><i class="fa-solid fa-paper-plane"></i></button>
     </div>
 
     <ul id="lista">
         
     </ul>
 
-    <!-- li > texto + btn -->
+    <footer id="footer">
+        <p>Excluir todos</p>
+        <button id="btnFooter"><i class="fa-regular fa-trash-can fa-lg"></i></button>
+    </footer>
     
 </body>
 </html>
