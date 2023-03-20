@@ -126,8 +126,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid #E8E4E4;
-    border-radius: 16px;
+    border: none;
+    border-radius: 16px 16px 0px 0px;
     position: fixed;
     bottom: -100%;
     left: 50%;
